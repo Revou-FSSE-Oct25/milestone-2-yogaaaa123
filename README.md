@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PAiQDgnZ)
+https://revou-fsse-oct25.github.io/milestone-2-yogaaaa123/
 
 # RevoFun Game Center
 
@@ -98,3 +98,7 @@ Pastikan Anda telah menginstal **Node.js** dan **npm** di komputer Anda.
 -   **HTML5:** Struktur halaman dan elemen Canvas.
 -   **CSS3 (Tailwind CSS v4):** Styling responsif dan modern.
 -   **JavaScript (ES6+):** Logika permainan, manipulasi DOM, dan Canvas API.
+
+
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PAiQDgnZ)
