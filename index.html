@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Center</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="bg-slate-900 min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <nav class="w-full bg-slate-800 border-b border-slate-700 p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="text-3xl">🎮</span>
+                <span class="text-2xl font-bold text-white tracking-tight">RevoFun</span>
+            </div>
+            <div class="text-slate-400 text-sm">
+                Fun Games for Everyone
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="flex-1 flex flex-col items-center justify-center p-8">
+        <div class="text-center mb-16 max-w-2xl">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 tracking-tight bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                Welcome to RevoFun
+            </h1>
+            <p class="text-slate-400 text-lg md:text-xl leading-relaxed">
+                Platform game browser terbaik untuk mengisi waktu luangmu. 
+                Nikmati koleksi game seru kami mulai dari olahraga, asah otak, hingga ketangkasan.
+                Mainkan sekarang, gratis!
+            </p>
+        </div>
+
+        <!-- Games Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
+            <!-- Volley Card -->
+            <a href="games/volley/index.html"
+                class="group relative bg-slate-800 rounded-2xl p-6 hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 border border-slate-700 hover:border-blue-500 flex flex-col">
+                <div
+                    class="h-48 bg-linear-to-br from-blue-500/10 to-cyan-500/10 rounded-xl mb-6 flex items-center justify-center group-hover:from-blue-500/20 group-hover:to-cyan-500/20 transition-all">
+                    <span class="text-7xl drop-shadow-lg transform group-hover:scale-110 transition-transform duration-300">🏐</span>
+                </div>
+                <h2 class="text-2xl font-bold text-white mb-3">Volley Game</h2>
+                <p class="text-slate-400 leading-relaxed flex-1">
+                    Tantang temanmu dalam duel voli 1 vs 1 yang seru. Lompat, smash, dan raih kemenangan!
+                </p>
+                <div class="mt-6 flex items-center text-blue-400 font-semibold group-hover:text-blue-300">
+                    Main Sekarang <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
+            </a>
+
+            <!-- Tebak Gambar Card -->
+            <a href="games/tebak-gambar/index.html"
+                class="group relative bg-slate-800 rounded-2xl p-6 hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 border border-slate-700 hover:border-purple-500 flex flex-col">
+                <div
+                    class="h-48 bg-linear-to-br from-purple-500/10 to-pink-500/10 rounded-xl mb-6 flex items-center justify-center group-hover:from-purple-500/20 group-hover:to-pink-500/20 transition-all">
+                    <span class="text-7xl drop-shadow-lg transform group-hover:scale-110 transition-transform duration-300">🧩</span>
+                </div>
+                <h2 class="text-2xl font-bold text-white mb-3">Tebak Emoji</h2>
+                <p class="text-slate-400 leading-relaxed flex-1">
+                    Uji imajinasimu! Tebak kata atau frasa tersembunyi dari kombinasi emoji yang unik.
+                </p>
+                <div class="mt-6 flex items-center text-purple-400 font-semibold group-hover:text-purple-300">
+                    Main Sekarang <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
+            </a>
+
+            <!-- Whack-a-Mole Card -->
+            <a href="games/whack-a-mole/index.html"
+                class="group relative bg-slate-800 rounded-2xl p-6 hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 border border-slate-700 hover:border-green-500 flex flex-col">
+                <div
+                    class="h-48 bg-linear-to-br from-green-500/10 to-emerald-500/10 rounded-xl mb-6 flex items-center justify-center group-hover:from-green-500/20 group-hover:to-emerald-500/20 transition-all">
+                    <span class="text-7xl drop-shadow-lg transform group-hover:scale-110 transition-transform duration-300">🐹</span>
+                </div>
+                <h2 class="text-2xl font-bold text-white mb-3">Whack-a-Mole</h2>
+                <p class="text-slate-400 leading-relaxed flex-1">
+                    Melatih refleksmu! Pukul tikus tanah yang muncul secepat mungkin sebelum waktu habis.
+                </p>
+                <div class="mt-6 flex items-center text-green-400 font-semibold group-hover:text-green-300">
+                    Main Sekarang <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-full border-t border-slate-800 p-8 mt-12 bg-slate-900">
+        <div class="max-w-6xl mx-auto text-center text-slate-500">
+            <p>&copy; 2025 RevoFun. All rights reserved.</p>
+            <p class="text-sm mt-2">Dibuat dengan ❤️ untuk Milestone 2</p>
+        </div>
+    </footer>
+</body>
+
+</html>

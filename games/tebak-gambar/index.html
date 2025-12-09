@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Gambar</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+</head>
+
+<body class="bg-slate-900 min-h-screen flex flex-col items-center justify-center p-4">
+    <a href="../../index.html" class="mb-8 text-slate-400 hover:text-white transition-colors">&larr; Back to Menu</a>
+
+    <div id="game-container" class="w-full flex justify-center">
+        <!-- Game will be rendered here -->
+    </div>
+
+    <script type="module">
+        import { TebakGambar } from './TebakGambar.js';
+        new TebakGambar('game-container');
+    </script>
+</body>
+
+</html>
